@@ -5,6 +5,7 @@
   --bg-color: hsl(var(--hue), 22%, 20%);
   --primary-color: hsl(var(--hue), 0%, 100%);
   --second-color: hsl(var(--hue), 50%, 80%);
+  --h2-size: clamp(3rem, 0.5rem + 3vw, 4rem);
 }
 
 * {
@@ -93,7 +94,7 @@ h1 {
   gap: 2.8rem;
 
   font-weight: 800;
-  font-size: 4rem;
+  font-size: clamp(3rem, 0.5rem + 3vw, 4rem);
   line-height: 4.8rem;
 }
 
